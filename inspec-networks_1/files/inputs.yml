@@ -1,0 +1,25 @@
+# Below is to be uncommented and set with your GCP project ID:
+
+Project_data:
+
+- {project_name: Jerome, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Tim}
+- {project_name: Maureen, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Julie}
+- {project_name: Glenda, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Douglas}
+- {project_name: Russell, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Katharine}
+- {project_name: Betsy, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Joann}
+- {project_name: Karen, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Lynne}
+- {project_name: Brent, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Jessica}
+- {project_name: Lester, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Marc}
+- {project_name: Martha, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Janet}
+- {project_name: Norman, region_name: eu-1-ger, subnet_id: undefined, subnet_name: jhkskdh,
+  vpc_name: Jeanne}
+ 

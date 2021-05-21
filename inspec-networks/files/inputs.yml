@@ -1,0 +1,17 @@
+# Below is to be uncommented and set with your GCP project ID:
+ 
+gcp_project_name: my-project-vishwas 
+
+
+ 
+gcp_subnet_names:
+ - backup-sb1 
+ - loadbal-sb1 
+ 
+gcp_subnet_ips:
+ - 10.23.31.84/44
+ - 123.32.23.0/24
+
+
+
+   

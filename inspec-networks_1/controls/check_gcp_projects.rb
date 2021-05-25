@@ -32,11 +32,11 @@
     project_data.each do | project_name | 
    #Existnce of VPC networks names  
 
-    describe google_compute_network(project: project_name["project_name"], project_name["vpc_name"] ) do
+    describe google_compute_network(project: project_name["project_name"], name: project_name[:vpc_name] ) do
         it { should exist }
     end
 
-    describe google_compute_subnetwork(project: project_name["project_name"],region: ["region_name"],name: project_name["subnet_name"]) do
+    describe google_compute_subnetwork(project: project_name["project_name"],region: project_name["region_name"] ,name: project_name["subnet_name"]) do
    	     it { should exist }
 	     its('ip_cidr_range') { should eq  project_name["subnet_id"]}
     end

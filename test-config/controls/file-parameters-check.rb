@@ -12,9 +12,8 @@ puts test_data
     impact 1.0                                # The criticality, if this control fails.
     title "Veify netwrok parameters of ifcfg file"             # A human-readable title
     desc "Script which is used to validate network parameters."
-    #   it { should exist }
-   describe file("/root/inspec_ifcfg/ifcfg-eth0") do                
       it { should exist }
+    describe file("/root/inspec_ifcfg/ifcfg-eth0") do                
       its(:content) { should match /#{test_data["DEVICE"]}/ }
       its(:content) { should match /#{test_data["BOOTPROTO"]}/ }
 
